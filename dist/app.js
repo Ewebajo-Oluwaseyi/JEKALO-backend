@@ -18,6 +18,6 @@ app.use(function (req, res, next) {
 });
 app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: true }));
-app.use('/api', user_route_1.default);
+app.use('/', user_route_1.default);
 exports.default = app;
 //# sourceMappingURL=app.js.map

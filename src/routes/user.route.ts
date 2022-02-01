@@ -5,8 +5,8 @@ import { postUser, getUser, deleteuser } from '../controllers/user.controller';
 const userRouter = express.Router();
 
 //routes
-userRouter.post('/user', postUser);
-userRouter.get('/users', getUser);
+userRouter.post('/api/user', postUser);
+userRouter.get('/api/users', getUser);
 userRouter.delete('/:username', deleteuser);
 
 
